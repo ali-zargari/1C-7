@@ -1,0 +1,274 @@
+*************************************************************************************************
+test: Input using the given text files. Tests most basic functions.
+*************************************************************************************************
+
+
+Total number of songs read 59600
+Test file for id table: resources/findIDs.txt
+
+Finding song id: 2
+Song id 2 found in tableOfSongIDs.
+
+Finding song id: 3
+Song id 3 found in tableOfSongIDs.
+
+Finding song id: 4
+Song id 4 found in tableOfSongIDs.
+
+Finding song id: 99
+Song id 99 found in tableOfSongIDs.
+
+Finding song id: 99999
+Song id 99999 NOT found in tableOfSongIDs.
+Done with testing table of ids.
+
+Test file for genre table: resources/findGenres.txt
+
+Number of store songs in each genre:
+classic pop and rock 	  23895
+                punk 	   3200
+                folk 	  13192
+                 pop 	   1617
+dance and electronica 	   4935
+               metal 	   2103
+      jazz and blues 	   4334
+           classical 	   1874
+             hip-hop 	    434
+     soul and reggae 	   4016
+
+Finding genre: pop
+Genre "pop" found in tableOfGenres.
+
+Finding genre: classic pop and rock
+Genre "classic pop and rock" found in tableOfGenres.
+
+Finding genre: FOOTHILL
+Genre "FOOTHILL" NOT found in tableOfGenres.
+Done with testing table of genres.
+
+
+Done with MyTunes.
+
+Process finished with exit code 0
+
+
+*************************************************************************************************
+test: Using the files given, print genre tree based on IDs, and vice versa. trying to break program.
+*************************************************************************************************
+
+Total number of songs read 59600
+Test file for id table: resources/findGenres.txt
+
+Warning: Input "pop" is not a valid number. Skipping.
+
+Warning: Input "classic pop and rock" is not a valid number. Skipping.
+
+Warning: Input "FOOTHILL" is not a valid number. Skipping.
+Done with testing table of ids.
+
+Test file for genre table: resources/findIDs.txt
+
+Number of store songs in each genre:
+classic pop and rock 	  23895
+                punk 	   3200
+                folk 	  13192
+                 pop 	   1617
+dance and electronica 	   4935
+               metal 	   2103
+      jazz and blues 	   4334
+           classical 	   1874
+             hip-hop 	    434
+     soul and reggae 	   4016
+
+Finding genre: 2
+Genre "2" NOT found in tableOfGenres.
+
+Finding genre: 3
+Genre "3" NOT found in tableOfGenres.
+
+Finding genre: 4
+Genre "4" NOT found in tableOfGenres.
+
+Finding genre: 99
+Genre "99" NOT found in tableOfGenres.
+
+Finding genre: 99999
+Genre "99999" NOT found in tableOfGenres.
+Done with testing table of genres.
+
+
+Done with MyTunes.
+
+Process finished with exit code 0
+
+
+
+*************************************************************************************************
+test: Using the gibberish.txt, print genre tree based on invalid IDs, further trying to break the program.
+*************************************************************************************************
+
+Total number of songs read 59600
+Test file for id table: resources/gibberish.txt
+
+Finding song id: 1
+Song id 1 found in tableOfSongIDs.
+
+Warning: Input "" is not a valid number. Skipping.
+
+Warning: Input "abv" is not a valid number. Skipping.
+
+Warning: Input "" is not a valid number. Skipping.
+
+Warning: Input "_" is not a valid number. Skipping.
+
+Warning: Input "" is not a valid number. Skipping.
+
+Warning: Input "delete" is not a valid number. Skipping.
+
+Warning: Input "" is not a valid number. Skipping.
+
+Warning: Input "add" is not a valid number. Skipping.
+
+Warning: Input "" is not a valid number. Skipping.
+
+Warning: Input "01abc" is not a valid number. Skipping.
+
+Finding song id: 1
+Song id 1 found in tableOfSongIDs.
+
+Finding song id: 1
+Song id 1 found in tableOfSongIDs.
+
+Finding song id: 1
+Song id 1 found in tableOfSongIDs.
+
+Finding song id: 1
+Song id 1 found in tableOfSongIDs.
+
+Finding song id: 1
+Song id 1 found in tableOfSongIDs.
+
+Finding song id: 2
+Song id 2 found in tableOfSongIDs.
+
+Finding song id: 2
+Song id 2 found in tableOfSongIDs.
+
+Finding song id: 2
+Song id 2 found in tableOfSongIDs.
+
+Finding song id: -2
+Song id -2 NOT found in tableOfSongIDs.
+
+Finding song id: -99
+Song id -99 NOT found in tableOfSongIDs.
+
+Warning: Input "-infinity" is not a valid number. Skipping.
+
+Finding song id: 2
+Song id 2 found in tableOfSongIDs.
+
+Warning: Input "99999999999999999999999999" is not a valid number. Skipping.
+
+Warning: Input ":)" is not a valid number. Skipping.
+
+Warning: Input "close()" is not a valid number. Skipping.
+Done with testing table of ids.
+
+Test file for genre table: resources/gibberish.txt
+
+Number of store songs in each genre:
+classic pop and rock 	  23895
+                punk 	   3200
+                folk 	  13192
+                 pop 	   1617
+dance and electronica 	   4935
+               metal 	   2103
+      jazz and blues 	   4334
+           classical 	   1874
+             hip-hop 	    434
+     soul and reggae 	   4016
+
+Finding genre: 01
+Genre "01" NOT found in tableOfGenres.
+
+Finding genre:
+Genre "" NOT found in tableOfGenres.
+
+Finding genre: abv
+Genre "abv" NOT found in tableOfGenres.
+
+Finding genre:
+Genre "" NOT found in tableOfGenres.
+
+Finding genre: _
+Genre "_" NOT found in tableOfGenres.
+
+Finding genre:
+Genre "" NOT found in tableOfGenres.
+
+Finding genre: delete
+Genre "delete" NOT found in tableOfGenres.
+
+Finding genre:
+Genre "" NOT found in tableOfGenres.
+
+Finding genre: add
+Genre "add" NOT found in tableOfGenres.
+
+Finding genre:
+Genre "" NOT found in tableOfGenres.
+
+Finding genre: 01abc
+Genre "01abc" NOT found in tableOfGenres.
+
+Finding genre: 1
+Genre "1" NOT found in tableOfGenres.
+
+Finding genre: 1
+Genre "1" NOT found in tableOfGenres.
+
+Finding genre: 1
+Genre "1" NOT found in tableOfGenres.
+
+Finding genre: 1
+Genre "1" NOT found in tableOfGenres.
+
+Finding genre: 1
+Genre "1" NOT found in tableOfGenres.
+
+Finding genre: 2
+Genre "2" NOT found in tableOfGenres.
+
+Finding genre: 2
+Genre "2" NOT found in tableOfGenres.
+
+Finding genre: 2
+Genre "2" NOT found in tableOfGenres.
+
+Finding genre: -2
+Genre "-2" NOT found in tableOfGenres.
+
+Finding genre: -99
+Genre "-99" NOT found in tableOfGenres.
+
+Finding genre: -infinity
+Genre "-infinity" NOT found in tableOfGenres.
+
+Finding genre: 2
+Genre "2" NOT found in tableOfGenres.
+
+Finding genre: 99999999999999999999999999
+Genre "99999999999999999999999999" NOT found in tableOfGenres.
+
+Finding genre: :)
+Genre ":)" NOT found in tableOfGenres.
+
+Finding genre: close()
+Genre "close()" NOT found in tableOfGenres.
+Done with testing table of genres.
+
+
+Done with MyTunes.
+
+Process finished with exit code 0
